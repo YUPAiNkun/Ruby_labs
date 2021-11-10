@@ -2,8 +2,8 @@ require 'rspec'
 require './main'
 
 RSpec.describe 'Main' do
-  @first_name = 'Andrey'
-  @second_name = 'Tiholaz'
+  @first_name = 'Yuri'
+  @second_name = 'Afanasev'
 
   it '#greeting first_solution' do
     allow_any_instance_of(Kernel).to receive(:gets).and_return(@first_name, @second_name, 13)

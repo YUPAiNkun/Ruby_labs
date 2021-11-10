@@ -21,5 +21,3 @@ def foobar
     puts_return("Сумма: #{first_number + second_number}")
   end
 end
-
-foobar
